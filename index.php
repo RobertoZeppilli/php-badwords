@@ -30,6 +30,7 @@ $lunghezza_paragrafo_censurato = strlen($parola_censurata);
         <h2>Paragrafo con censura</h2>
         <p><?php echo $parola_censurata ?></p>
         <p>La lunghezza con censura è di <strong><?php echo $lunghezza_paragrafo_censurato ?></strong> caratteri</p>
+        <p>Parola censurata: <strong><?php echo $censura ?></strong></p>
     </div>
 </body>
 </html>
